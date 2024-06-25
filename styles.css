@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+}
+
+.navigation {
+    height: 110px;
+    width: 100%;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    height: 60%;
+    width: 60%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-bar input {
+    height: 100%;
+    width: 100%;
+    padding: .5vw 5vw;
+    font-size: 1.2vw;
+    border: 5px solid #e29300;
+}
+
+.left {
+    height: 90%;
+    width: 7%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 4px;
+
+}
+
+.left select {
+    font-size: 1.1vw;
+    padding: .5vw;
+    height: 100%;
+    width: 100%;
+}
+
+.right {
+    height: 100%;
+    width: 7%;
+    background-color: #e29300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.right i {
+    font-size: 1.3vw;
+}
